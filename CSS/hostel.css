@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+                                                                        /* facility section */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.facility {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fafafa;
+    transition: transform 0.3s ease;
+}
+
+.facility img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.facility p {
+    font-size: 1rem;
+    color: #555;
+    margin: 0;
+}
+
+.facility:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+                                                                            /* fees section */
+h2 {
+    font-size: 1.75rem;
+    color: #333;
+}
+
+.table {
+    margin: auto;
+    background-color: #ffffff;
+    border-collapse: collapse;
+}
+
+.table thead {
+    background-color: rgb(4, 4, 0);
+    color: white;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    font-weight: bold;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-responsive {
+    margin-top: 30px;
+}
+
+.hostel-queries {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom:3vh;
+    flex-wrap: wrap; 
+}
+
+.hostel-box {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hostel-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.boys-hostel {
+    border-color: #007bff;
+}
+.girls-hostel {
+    border-color: #f042b6;
+}
+
+@media (max-width: 768px) {
+    .table-responsive {
+        margin: 0;
+    }
+
+    .table thead, .table tbody tr {
+        display: block;
+        width: 100%;
+    }
+
+    .table thead tr {
+        display: none;
+    }
+
+    .table tbody tr {
+        margin-bottom: 15px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+    }
+
+    .table tbody tr td {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        font-size: 0.875rem;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .table tbody tr td::before {
+        content: attr(data-label);
+        flex-basis: 45%;
+        font-weight: bold;
+    }
+
+    .table tbody tr td:last-child {
+        border-bottom: 0;
+    }
+}
+
+.footer {
+    background-color: #cec9c9;
+    color: #5d5959;
+    padding: 20px 0;
+  }
+  
+  .footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer .col-md-3 {
+    flex-basis: 25%;
+    margin: 20px;
+  }
+  
+  .footer h4 {
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer li {
+    margin-bottom: 10px;
+  }
+  
+  .footer a {
+    color: #676565;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #ccc;
+  }
+  
+  .footer .copyright {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer .fab, .footer .fas {
+    font-size: 18px;
+    margin-right: 10px;
+  }

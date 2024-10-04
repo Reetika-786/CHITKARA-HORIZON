@@ -1,0 +1,118 @@
+.club-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.club-item {
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+}
+
+.club-item img {
+    width: 200px; 
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+ 
+ 
+ 
+.club-info {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(192, 184, 184, 0.1);
+    margin-left: 20px; /* add some margin to separate the image and description */
+}
+ 
+h1 {
+    background-color:white;  
+    padding: 5px;
+  }
+body{
+    background-color: black;
+}
+h1 {
+    text-align: center;
+  }
+  .club-info p {
+    background: linear-gradient(to bottom, #ffcccc, #ffffff);
+    padding: 10 px;
+    border-radius: 10px;
+    transition: background 0.3s; /* add transition effect */
+  }
+  
+.club-info p:hover {
+    background: linear-gradient(to bottom, #ff99cc, #ffffff);
+    cursor: pointer; /* change cursor shape on hover */
+  }
+.club-info p {
+    background: linear-gradient(to bottom, #ffcccc, #ffffff);
+    padding: 10 px;
+    border-radius: 10px;
+    transition: background 0.3s; /* add transition effect */
+  }
+  
+.club-info p:hover {
+    background: linear-gradient(to bottom, #ff99cc, #ffffff);
+    cursor: pointer;  
+  }
+  
+  #page6{
+    display:flex;
+    justify-content: space-between;
+    height:200px;
+    background-color: black;
+    padding:2vw;
+    
+}
+
+#page6 h5{
+    font-size: 1.4vw;
+    margin-bottom: 0.5vw;
+}
+
+
+#page6 #logo img{
+    width:100px;
+    height:100px;
+}
+
+#page6 .social-icons img{
+    height:2vw;
+    width:2vw;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0.2vw; 
+    color:white;
+    margin-bottom: 3vh;
+}
+.club-item {
+    /* Add a transition effect to the club item */
+    transition: transform 0.5s ease-in-out;
+  }
+  .club-item:hover {
+    /* Add a scale animation on hover */
+    transform: scale(1.1);
+  }
+  
+  
+ 
+  .club-item img {
+    /* Add a fade-in animation to the image */
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

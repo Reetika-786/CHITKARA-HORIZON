@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="hostel.css">
+</head>
+
+<body>
+    <!-- navbar part -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="logoooo.jpg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#targetSection" id="scrollButton">Facilities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#targetSection2" id="scrollButton">Fees</a>
+                </li>
+            </ul>
+            <div class="search">
+            <form class="form-inline d-flex align-items-center my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+        </div>
+    </nav>
+
+    <!-- carousel part -->
+
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="d-flex justify-content-center align-items-center" style="height: 650px">
+                    <img src="main1.jpg" alt="main1">
+                   
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center align-items-center" style="height: 650px">
+                    <img src="main2.jpg" alt="main1">
+                   
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center align-items-center" style="height: 650px"
+                    style="width: 550px;">
+                    <img src="main3.jpg" alt="main1">
+                   
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+                                                                     <!-- facilities part -->
+    <div id="targetSection">
+        <div class="container text-center my-5">
+            <h1>Facilities at Hostels</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+                <div class="col">
+                    <div class="facility p-4">
+                        <img src="electricity.jpg" alt="24 x 7 Power Supply">
+                        <p>24 x 7 Power Supply</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="facility p-4">
+                        <img src="wifi.jpg" class="img-fluid mb-3" alt="Wi-Fi Services">
+                        <p>Wi-Fi Internet Services</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="facility p-4">
+                        <img src="mess.jpg" alt="Dinning">
+                        <p>Dinning</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="facility p-4">
+                        <img src="fitness.jpg" alt="Fitness">
+                        <p>Fitness</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="facility p-4">
+                        <img src="room.jpg" class="img-fluid mb-3" alt="Well furnishedrooms">
+                        <p>Well Furnished Rooms</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="facility p-4">
+                        <img src="laundry.jpg" alt="Laundry ">
+                        <p>Laundry service</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="facility p-4">
+                        <img src="salon.avif" class="img-fluid mb-3" alt="Saloon">
+                        <p>Saloon</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="facility p-4">
+                        <img src="canteen.webp" class="img-fluid mb-3" alt="Canteen ">
+                        <p>Canteen And Tuck Shop</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="facility p-4">
+                        <img src="sports.webp" class="img-fluid mb-3" alt="Sports">
+                        <p>Sportorium</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- fees section -->
+
+    <div id="targetSection2">
+        <div class="container my-3">
+            <h1 class="text-center">Hostel Fee(Boys/Girls)</h1>
+            <ul>
+                <li>
+                    Fees are collected semester-wise. The fee cycle is in December for the even semester (January–June)
+                    and June for the odd semester (July–December).
+                </li>
+                <li>
+                    The fee shall be paid by online mode only. Please visit
+                    <a href="https://uhostel.chitkara.edu.in/" target="_blank">uHostel</a> to make your payment.
+                </li>
+                <li>
+                    Students are expected to pay the full semester fee. Partial payments or installments will not be
+                    entertained.
+                </li>
+                <li>
+                    Hostel fee once paid will not be refunded or adjusted, except if the candidate leaves the course
+                    during the first semester only.
+                </li>
+                <li>
+                    Hostel fee is NON-REFUNDABLE if the student is expelled from the hostel on disciplinary grounds.
+                </li>
+                <li>
+                    Hostel charges are subject to revision every year.
+                </li>
+            </ul>
+            <div class="table-responsive mt-4">
+                <table class="table table-bordered">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">Hostel - Boarding,lodging & Laundry Charges</th>
+                            <th scope="col" colspan="2">In Rupees (Per semester)</th>
+                        </tr>
+                        <tr>
+                            <th scope="col">Non Air-Conditioned Rooms</th>
+                            <th scope="col">Session 2024-25</th>
+                            <th scope="col">Session 2025-26</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="Rooms">4 Seater Common Washroom</td>
+                            <td data-label="Non AC (INR)">67000 /-</td>
+                            <td data-label="Non AC (USD)">73000 /-</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Rooms">4 Seater Attached Washroom</td>
+                            <td data-label="Non AC (INR)">72000 /-</td>
+                            <td data-label="Non AC (USD)">78000 /-</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Rooms">3 Seater Common Washroom</td>
+                            <td data-label="Non AC (INR)">72000 /-</td>
+                            <td data-label="Non AC (USD)">78000 /-</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Rooms">3 Seater Attached Washroom</td>
+                            <td data-label="Non AC (INR)">80000 /-</td>
+                            <td data-label="Non AC (USD)">86000 /-</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Rooms">2 Seater Attached Washroom</td>
+                            <td data-label="Non AC (INR)">89000 /-</td>
+                            <td data-label="Non AC (USD)">95000 /-</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Rooms">1 Seater Common Washroom</td>
+                            <td data-label="Non AC (INR)">92000 /-</td>
+                            <td data-label="Non AC (USD)">98000 /-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="container my-3">
+            <div class="table-responsive mt-4">
+                <table class="table table-bordered">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">Air Conditioned Rooms</th>
+                            <th scope="col">Session 2024-25</th>
+                            <th scope="col">Session 2025-26</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="Rooms">4 Seater Common Washroom</td>
+                            <td data-label="Non AC (INR)">87000 /-</td>
+                            <td data-label="Non AC (USD)">93000 /-</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Rooms">4 Seater Attached Washroom</td>
+                            <td data-label="Non AC (INR)">92000 /-</td>
+                            <td data-label="Non AC (USD)">98000 /-</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Rooms">3 Seater Common Washroom</td>
+                            <td data-label="Non AC (INR)">96000 /-</td>
+                            <td data-label="Non AC (USD)">1,02000 /-</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Rooms">3 Seater Attached Washroom</td>
+                            <td data-label="Non AC (INR)">1,02,000 /-</td>
+                            <td data-label="Non AC (USD)">1,08,000 /-</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Rooms">2 Seater Attached Washroom</td>
+                            <td data-label="Non AC (INR)">1,21,000 /-</td>
+                            <td data-label="Non AC (USD)">1,27,000 /-</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Rooms">1 Seater Common Washroom</td>
+                            <td data-label="Non AC (INR)">1,26,000 /-</td>
+                            <td data-label="Non AC (USD)">1,32,000 /-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+                                                                        <!-- query part -->
+
+    <section class="hostel-queries body2" >
+        <div class="hostel-box boys-hostel">
+            <h2>Boys Hostel</h2>
+            <p>Helpline Number: +123 456 7890</p>
+        </div>
+        <div class="hostel-box girls-hostel">
+            <h2>Girls Hostel</h2>
+            <p>Helpline Number: +098 765 4321</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h4>About Us</h4>
+<p>A hostel is a type of lodging that offers basic, shared accommodations, typically at a lower cost. Hostels are often used by students and young travelers, and are known for providing a "home away from home".</p>
+            </div>
+            <div class="col-md-3">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="https://www.instagram.com/osa_chitkarau?igsh=MWJueHhjZXNvbDg2ZQ==">OSA</a></li>
+                <li><a href="skill.html"> More Clubs</a></li>
+                 
+                <li><a href="https://www.instagram.com/chitkarau?igsh=dXQzZHpmYWVrcjF4">ChitkaraU</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h4>Follow Us</h4>
+              <ul>
+                <li><a href="https://www.instagram.com/c2s2_reflection?igsh=d2RkNXBncDg2Y2Fz" target="_blank"><i class="fab fa-instagram"></i> Reflection</a></li>
+                <li><a href="https://www.instagram.com/c2s2_panache?igsh=ZXFxcWNnamE0MmVz" target="_blank"><i class="fab fa-instagram"></i> Panache</a></li>
+                <li><a href="https://www.instagram.com/c2s2__dhwani?igsh=MWc2NTN3bzNnYWwyaQ==" target="_blank"><i class="fab fa-instagram"></i>Tasweer</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h4>Contact Us</h4>
+              <p><i class="fas fa-map-marker-alt"></i>  Chitkara University,rajpura,Punjab.</p>
+              <p><i class="fas fa-phone"></i> +91 12345 67890</p>
+              <p><i class="fas fa-envelope"></i> <a href="mailto:info@c2s2clubs.com">info@c2s2clubs.com</a></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p class="copyright">&copy; 2023 College Clubs. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
