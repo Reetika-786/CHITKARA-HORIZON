@@ -21,19 +21,20 @@ nav{
     justify-content: space-between;
     z-index: 10;
     background-color: #111; 
+    border-bottom: 1px solid white;
 }
 
 nav h1{
     font-size: 1.6vw;
 }
 
-.nav-part2{
+/* .nav-part2{
     display: flex;
     gap:2vw;
     align-items: flex-start;
     padding: 1vh 0 ;
     padding-left: 4vw;
-    /* padding-right: 4vw; */
+    padding-right: 4vw; 
     position: relative;
     z-index: 10;
 }
@@ -101,7 +102,7 @@ nav button{
 nav button i{
     height: 2vw;
     margin-left: 0.6vw;
-}
+} */
 
 #page1{
     height:100vh;    

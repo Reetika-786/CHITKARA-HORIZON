@@ -1,0 +1,45 @@
+[
+    {
+        "image": "images/reflection.jpeg",
+        "alt": "Club 1",
+        "title": "REFLECTION",
+        "description": "Unleash your creativity, unleash yourself",
+        "link": "bsignup.html"
+    },
+    {
+        "image": "images/TASWEER.jpeg",
+        "alt": "Club 2",
+        "title": "TASWEER",
+        "description": "Capturing life, one shot at a time",
+        "link": "bsignup.html"
+    },
+    {
+        "image":"images/panache.jpeg",
+        "alt": "Club 2",
+        "title": "PANACHE",
+        "description": "Where confidence meets style",
+        "link": "bsignup.html"
+    },
+    {
+        "image": "images/dwanii.jpeg",
+        "alt": "Club 2",
+        "title": "DHWANII",
+        "description": "The beat of creativity, in every student",
+        "link": "bsignup.html"
+    },
+    {
+        "image": "images/natraj.jpeg",
+        "alt": "Club 2",
+        "title": "NATRAJ",
+        "description": "The rhythm of India, in every step",
+        "link": "bsignup.html"
+      },
+      {
+        "image": "images/nati.jpeg",
+        "alt": "Club 2",
+        "title": "NATI",
+        "description": "The rhythm of the mountains, in every step",
+        "link": "bsignup.html"
+      }
+  
+]
