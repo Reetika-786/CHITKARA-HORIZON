@@ -3,117 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <style>
-         body {
-            font-family: Arial, sans-serif;
-            background-color: #dbcdcd;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .signup-container {
-            background-color: #7764a0;
-            padding: 22px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(225, 219, 219, 0.1);
-            max-width: 400px; 
-            width: 100%;
-            margin-right: 550px;
-            margin-TOP: 150PX;
-            animation: fadeIn 0.9s ease-in-out;}
-            
-        
-
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-        }
-        .signup-container h2 {
-            margin-bottom: 50px;
-            text-align: center;
-            
-        }
-        .signup-container input {
-             width: 100%; 
-            padding: 9px;
-           
-            
-             margin: 10px 0px; 
-            border-radius: 7px;
-            border: 1px solid #ae5ac3;
-        }
-        .signup-container button {
-            width: 100%;
-            padding: 10px;
-            background-color: #57a43f;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            
-            
-        }
-        .signup-container button:hover {
-            background-color: #d596d4;
-        }
-        .box{
-            background-color: #c9a2ce;
-        }
-        .button-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-.button-container button[type="submit"], .button-container button[type="reset"] {
-    width: 45%;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 0 10px;
-}
-
-
-      
-        body {
-    font-family: Arial, sans-serif;
-    background-image:url('https://wallpapercave.com/wp/wp2474902.jpg');
- 
-    background-size: cover;  
-    background-position: center;  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
- 
-
-    </style>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="bsignup.css">
 </head>
 <body>
-    <div class="signup-container">
-        <h2>login</h2>
-        <form action="submit .html" method="POST">
-            <input type="text" name="fullname" class="box" placeholder="Name" required>
-            <input type="email" name="email" class="box" placeholder="Email" required>
-            <input type="password" name="password" class="box" placeholder="Roll no" required>
-            <input type="password" name="confirm_password" class="box" placeholder="Password" required>
-            <div class="button-container">
-            <button type="submit">login</button>
-            <a href="signup.html" class="button">New user? register here</a>
+    <header>
+        <h1>~Register for a club~</h1>
+    </header>
+    <main>
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
             </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
             </div>
+            <div class="form-group">
+                <label for="club">Select Club:</label>
+                <select id="club" required>
+                    <option value="">--Select a Club--</option>
+                    <option value="reflection">REFLECTION</option>
+                    <option value="tasweer">TASWEER</option>
+                    <option value="panache">PANACHE</option>
+                    <option value="dhwani">DHWANII</option>
+                    <option value="natraj">NATRAJ</option>
+                    <option value="nati">NATI</option>
+                    <option value="custody">Custody</option>
+                    <option value="literayalls">Literayalls</option>
+                    <option value="bhangra">Bhangra</option>
+                </select>
+            </div>
+            <button type="submit">Register</button>
         </form>
-    </div>
+        <div id="message" class="message"></div>
+    </main>
+    <script src="registration.js"></script>
 </body>
 </html> -->
 
