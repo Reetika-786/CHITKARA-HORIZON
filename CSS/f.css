@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #f00e0a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.info {
+    padding: 20px;
+}
+
+h2, h3 {
+    color: #f00e0a;
+}
+
+img {
+    max-width: 80%; 
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+/* Other styles remain the same */
+
+img {
+    display: block;
+    margin-bottom: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Specific class for controlling the size of certain images */
+.img-small {
+    width: 300px;
+    height: 200px;
+}
+
+.img-medium {
+    width: 400px;
+    height: 250px;
+}
+
+.img-large {
+    width: 500px;
+    height: 350px;
+}
+
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery img {
+    width: 48%;
+}
+
+.manager {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
