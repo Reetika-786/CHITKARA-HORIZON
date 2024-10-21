@@ -1,7 +1,7 @@
 document.getElementById('registrationForm').addEventListener('submit', function (event) {
     event.preventDefault();
     alert("Register Succesfully")
-    // Getting form valuess
+    // Getting form values
     const name = document.getElementById('name').value.trim();
     const email = document.getElementById('email').value.trim();
     const club = document.getElementById('club').value;
@@ -29,10 +29,10 @@ document.getElementById('registrationForm').addEventListener('submit', function 
         isValid = false;
     }
 
-    // Display any errors
+    // Displaing the errors if any
     document.getElementById('message').textContent = Object.values(errors).filter(error => error).join(', ');
 
-    // If form is valid, submit data
+    // If form is valid, then submit data +new object 
     if (isValid) {
         const newRegistration = { name, email, club };
 
