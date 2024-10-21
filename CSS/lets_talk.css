@@ -1,4 +1,4 @@
-body{
+/* body{
     background: url('https://i0.wp.com/www.frebers.com/wp-content/uploads/2020/08/Black-Abstract-Background-Free-Vector-Art-01-scaled.jpg?fit=2560%2C1440&ssl=1') no-repeat ;
     background-size: cover;
     height:100vh;
@@ -58,4 +58,80 @@ form h1{
 ::placeholder{
     color:white;
     opacity: 0.7;
+} */
+
+body {
+    background: url('https://i0.wp.com/www.frebers.com/wp-content/uploads/2020/08/Black-Abstract-Background-Free-Vector-Art-01-scaled.jpg?fit=2560%2C1440&ssl=1') no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: auto; /* Adjusted to auto to fit content */
+    width: 50vh;
+    border: 1px solid red;
+    align-items: center;
+    margin: auto;
+    margin-top: 15vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -7px -7px rgba(255, 65, 65, 0.5);
+    border-radius: 5vh;
+    padding: 2vh; /* Added padding for better spacing */
+}
+
+form h1 {
+    color: white;
+    font-size: 4.1vh;
+    margin: 5vh;
+    text-decoration: underline;
+}
+
+.box {
+    padding: 2.5vh;
+    margin: 3vh;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 3vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px rgba(255, 255, 255, 0.5);
+    color: white;
+    font-size: 1rem;
+}
+
+#submit {
+    padding: 2vh 2vh;
+    margin-top: 3vh;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px rgba(255, 255, 255, 0.5);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 2vh;
+    font-size: 1rem;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+
+#forgot-password {
+    color: white;
+    margin: 1vh 0;
+    text-decoration: underline;
+}
+
+#login-redirect {
+    color: white;
+    margin-top: 2vh;
 }
