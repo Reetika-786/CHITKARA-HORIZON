@@ -3,18 +3,19 @@ document.getElementById('signupForm').addEventListener('submit', function (event
 
     const name = document.getElementById('name').value.trim();
     const email = document.getElementById('email').value.trim();
+    const roll = document.getElementById('roll').value.trim();
     const password = document.getElementById('password').value;
     const c_password = document.getElementById('c_password').value;
-    const phone = document.getElementById('phone').value.trim();
+    
 
     // Clear previous error messages
     document.getElementById('nameError').textContent = '';
+    document.getElementById('rollError').textContent = '';
     document.getElementById('emailError').textContent = '';
     document.getElementById('passwordError').textContent = '';
     document.getElementById('c_passwordError').textContent = '';
-    document.getElementById('phoneError').textContent = '';
 
-    const errors = { name: '', email: '', password: '', c_password: '', phone: '' };
+    const errors = { name: '', roll: '', email: '', password: '', c_password: '' };
     let isValid = true;
 
     // Validate the input fields
@@ -49,11 +50,11 @@ document.getElementById('signupForm').addEventListener('submit', function (event
     }
 
     const numPatt = /^\d{10}$/;
-    if (!phone) {
-        errors.phone = "Phone number is required";
+    if (!roll) {
+        errors.roll = "Roll number is required";
         isValid = false;
-    } else if (!numPatt.test(phone)) {
-        errors.phone = "Phone number must be 10 digits";
+    } else if (!numPatt.test(roll)) {
+        errors.phone = "Roll number must be 10 digits";
         isValid = false;
     }
 
@@ -62,11 +63,11 @@ document.getElementById('signupForm').addEventListener('submit', function (event
     document.getElementById('emailError').textContent = errors.email;
     document.getElementById('passwordError').textContent = errors.password;
     document.getElementById('c_passwordError').textContent = errors.c_password;
-    document.getElementById('phoneError').textContent = errors.phone;
+    document.getElementById('rollError').textContent = errors.roll;
 
     if (isValid) {
         // Create a new user object
-        const newUser = { name, email, password, phone };
+        const newUser = { name,roll, email, password };
 
         // POST request to add a new user to the login data
         fetch("http://localhost:3003/login", {

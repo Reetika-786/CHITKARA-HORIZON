@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Clone - Sign Up</title>
-    <link rel="stylesheet" href="logn.css">
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
     <div class="container">
@@ -21,6 +21,11 @@
                 <div class="error" id="emailError"></div>
             </div>
             <div>
+                <label for="roll">Enter Roll Number</label>
+                <input type="text" id="phone" name="phone" required>
+                <div class="error" id="phoneError"></div>
+            </div>
+            <div>
                 <label for="password">Enter Password</label>
                 <input type="password" id="password" name="password" required>
                 <div class="error" id="passwordError"></div>
@@ -30,14 +35,9 @@
                 <input type="password" id="c_password" name="c_password" required>
                 <div class="error" id="c_passwordError"></div>
             </div>
-            <div>
-                <label for="phone">Enter Phone</label>
-                <input type="text" id="phone" name="phone" required>
-                <div class="error" id="phoneError"></div>
-            </div>
             <button type="submit" class="btn">Sign Up</button>
             <div class="login-link">
-                Already have an account? <a href="logn.html">Log in</a>
+                Already have an account? <a href="login.html">Log in</a>
             </div>
         </form>
     </div>
