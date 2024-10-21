@@ -1,6 +1,6 @@
 function generateClubCards() {
     const clubGrid = document.querySelector(".club-grid");
-    fetch('clubs.json')
+    fetch('/JS/clubs.json')
         .then(response => {
              
             if (!response.ok) {
