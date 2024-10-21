@@ -1,6 +1,6 @@
 document.getElementById('signupForm').addEventListener('submit', function (event) {
     event.preventDefault();  // Prevent the default form submission
-    
+
     const name = document.getElementById('name').value.trim();
     const email = document.getElementById('email').value.trim();
     const roll = document.getElementById('roll').value.trim();
@@ -24,6 +24,15 @@ document.getElementById('signupForm').addEventListener('submit', function (event
         isValid = false;
     }
 
+    const numPatt = /^\d{10}$/;
+    if (!roll) {
+        errors.roll = "Roll number is required";
+        isValid = false;
+    } else if (!numPatt.test(roll)) {
+        errors.roll = "Roll number must be 10 digits";
+        isValid = false;
+    }
+    
     const emailPatt = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     if (!email) {
         errors.email = "Email is required";
@@ -49,21 +58,12 @@ document.getElementById('signupForm').addEventListener('submit', function (event
         isValid = false;
     }
 
-    const numPatt = /^\d{10}$/;
-    if (!roll) {
-        errors.roll = "Roll number is required";
-        isValid = false;
-    } else if (!numPatt.test(roll)) {
-        errors.phone = "Roll number must be 10 digits";
-        isValid = false;
-    }
-
     // Show the errors if any exist
     document.getElementById('nameError').textContent = errors.name;
+    document.getElementById('rollError').textContent = errors.roll;
     document.getElementById('emailError').textContent = errors.email;
     document.getElementById('passwordError').textContent = errors.password;
     document.getElementById('c_passwordError').textContent = errors.c_password;
-    document.getElementById('rollError').textContent = errors.roll;
 
     if (isValid) {
         // Create a new user object
