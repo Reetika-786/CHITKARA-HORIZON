@@ -22,7 +22,7 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
             if (user) {
                 // If a user is found, redirect to the home page
                 alert("Login successful!");
-                window.location.href = "home.html"; // Redirect to home page
+                window.location.href = "index.html"; // Redirect to home page
             } else {
                 // If no user matches, show an error message
                 document.getElementById('emailError').textContent = "Email or password is incorrect.";
