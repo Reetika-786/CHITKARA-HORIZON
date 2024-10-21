@@ -1,0 +1,52 @@
+{
+  "login": [
+    {
+      "id": "4136",
+      "name": "adf",
+      "email": "def@df.com",
+      "club": "dhwani"
+    },
+    {
+      "id": "5354",
+      "name": "jjjrdjd",
+      "email": "sky123@gmail.com",
+      "club": "panache"
+    },
+    {
+      "id": "bed6",
+      "name": "vaibhav",
+      "email": "sky123@gmail.com",
+      "club": "tasweer"
+    },
+    {
+      "id": "babd",
+      "name": "motuuu",
+      "email": "moti12@gmail.com",
+      "club": "literayalls"
+    },
+    {
+      "id": "62b3",
+      "name": "raghav",
+      "email": "raghav@gmail.com",
+      "club": "reflection"
+    },
+    {
+      "id": "2d21",
+      "name": "vaidehi",
+      "email": "vaidehii@gmail.com",
+      "club": "literayalls"
+    },
+    {
+      "id": "8d8d",
+      "name": "vaidehi",
+      "email": "vaidehii@gmail.com",
+      "club": "reflection"
+    },
+    {
+      "id": "38b4",
+      "name": "reetika",
+      "email": "reetika123@gmail.com",
+      "club": "panache"
+    }
+  ]
+}
