@@ -5,7 +5,91 @@ body {
     padding: 0;
     scroll-behavior: smooth;
 }
-                                                                        /* facility section */
+
+                                           /* navbar section */
+.navbar {
+    display: flex;
+    justify-content: space-between;  /* Space between the logo and the nav items */
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand img {
+    width: 60px;  /* Adjust the size of the logo */
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;  /* Triple the spacing between the links */
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    font-size: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333; /* Default color */
+}
+
+.nav-link:hover {
+    color: #0056b3; /* Color on hover */
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+           
+
+/* .theme-container {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 20px;
+}
+
+.theme-container.dark-theme {
+    background-color: black;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+} */
+
+
+
+/* :root {
+    --primary-color: #fff;
+    --secondary-color: #000;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.dark-theme {
+    --primary-color: #000;
+    --secondary-color: #fff;
+}
+
+#icon {
+    padding: 5.2px;
+    width: 35px;
+    cursor: pointer;
+    display: flex;
+} */
+
+
+
+                             /* facility section */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -159,9 +243,9 @@ h2 {
         border-bottom: 0;
     }
 }
-
+                                       /*  footerpart */
 .footer {
-    background-color: #cec9c9;
+    background-color: white;
     color: #5d5959;
     padding: 20px 0;
   }
@@ -180,7 +264,6 @@ h2 {
   
   .footer .col-md-3 {
     flex-basis: 25%;
-    margin: 20px;
   }
   
   .footer h4 {
@@ -218,3 +301,692 @@ h2 {
     font-size: 18px;
     margin-right: 10px;
   }
+
+                                      /* qr code partt */
+.fixed-qr-code {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.qr-content {
+    display: flex;
+    align-items: center;
+    background-color: red; 
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Drop shadow for depth */
+}
+
+.qr-content img {
+    width: 60px; /* Adjust QR code size */
+    height: auto;
+    border-radius: 10px; /* Slightly rounded corners */
+}
+
+.qr-text {
+    margin-left: 8px; /* Space between QR code and text */
+    color: #050505e2; /* Text color (Teal) */
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.0;
+    text-align: center;
+}
+
+.qr-text p {
+    margin: 0;
+}
+
+.qr-content:hover {
+    background-color: purple; /* Darker purple on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    transition: all 0.3s ease-in-out;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+                                           /* navbar section */
+.navbar {
+    display: flex;
+    justify-content: space-between;  /* Space between the logo and the nav items */
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand img {
+    width: 60px;  /* Adjust the size of the logo */
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;  /* Triple the spacing between the links */
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    font-size: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333; /* Default color */
+}
+
+.nav-link:hover {
+    color: #0056b3; /* Color on hover */
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+           
+
+/* .theme-container {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 20px;
+}
+
+.theme-container.dark-theme {
+    background-color: black;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+} */
+
+
+
+/* :root {
+    --primary-color: #fff;
+    --secondary-color: #000;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.dark-theme {
+    --primary-color: #000;
+    --secondary-color: #fff;
+}
+
+#icon {
+    padding: 5.2px;
+    width: 35px;
+    cursor: pointer;
+    display: flex;
+} */
+
+
+
+                             /* facility section */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.facility {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fafafa;
+    transition: transform 0.3s ease;
+}
+
+.facility img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.facility p {
+    font-size: 1rem;
+    color: #555;
+    margin: 0;
+}
+
+.facility:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+                                                                            /* fees section */
+h2 {
+    font-size: 1.75rem;
+    color: #333;
+}
+
+.table {
+    margin: auto;
+    background-color: #ffffff;
+    border-collapse: collapse;
+}
+
+.table thead {
+    background-color: rgb(4, 4, 0);
+    color: white;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    font-weight: bold;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-responsive {
+    margin-top: 30px;
+}
+
+.hostel-queries {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom:3vh;
+    flex-wrap: wrap; 
+}
+
+.hostel-box {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hostel-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.boys-hostel {
+    border-color: #007bff;
+}
+.girls-hostel {
+    border-color: #f042b6;
+}
+
+@media (max-width: 768px) {
+    .table-responsive {
+        margin: 0;
+    }
+
+    .table thead, .table tbody tr {
+        display: block;
+        width: 100%;
+    }
+
+    .table thead tr {
+        display: none;
+    }
+
+    .table tbody tr {
+        margin-bottom: 15px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+    }
+
+    .table tbody tr td {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        font-size: 0.875rem;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .table tbody tr td::before {
+        content: attr(data-label);
+        flex-basis: 45%;
+        font-weight: bold;
+    }
+
+    .table tbody tr td:last-child {
+        border-bottom: 0;
+    }
+}
+                                       /*  footerpart */
+.footer {
+    background-color: white;
+    color: #5d5959;
+    padding: 20px 0;
+  }
+  
+  .footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer .col-md-3 {
+    flex-basis: 25%;
+  }
+  
+  .footer h4 {
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer li {
+    margin-bottom: 10px;
+  }
+  
+  .footer a {
+    color: #676565;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #ccc;
+  }
+  
+  .footer .copyright {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer .fab, .footer .fas {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+                                      /* qr code partt */
+.fixed-qr-code {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.qr-content {
+    display: flex;
+    align-items: center;
+    background-color: red; 
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Drop shadow for depth */
+}
+
+.qr-content img {
+    width: 60px; /* Adjust QR code size */
+    height: auto;
+    border-radius: 10px; /* Slightly rounded corners */
+}
+
+.qr-text {
+    margin-left: 8px; /* Space between QR code and text */
+    color: #050505e2; /* Text color (Teal) */
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.0;
+    text-align: center;
+}
+
+.qr-text p {
+    margin: 0;
+}
+
+.qr-content:hover {
+    background-color: purple; /* Darker purple on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    transition: all 0.3s ease-in-out;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+                                           /* navbar section */
+.navbar {
+    display: flex;
+    justify-content: space-between;  /* Space between the logo and the nav items */
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand img {
+    width: 60px;  /* Adjust the size of the logo */
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;  /* Triple the spacing between the links */
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    font-size: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333; /* Default color */
+}
+
+.nav-link:hover {
+    color: #0056b3; /* Color on hover */
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+           
+
+
+
+                             /* facility section */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.facility {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fafafa;
+    transition: transform 0.3s ease;
+}
+
+.facility img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.facility p {
+    font-size: 1rem;
+    color: #555;
+    margin: 0;
+}
+
+.facility:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+                                                                            /* fees section */
+h2 {
+    font-size: 1.75rem;
+    color: #333;
+}
+
+.table {
+    margin: auto;
+    background-color: #ffffff;
+    border-collapse: collapse;
+}
+
+.table thead {
+    background-color: rgb(4, 4, 0);
+    color: white;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    font-weight: bold;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-responsive {
+    margin-top: 30px;
+}
+
+.hostel-queries {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom:3vh;
+    flex-wrap: wrap; 
+}
+
+.hostel-box {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hostel-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.boys-hostel {
+    border-color: #007bff;
+}
+.girls-hostel {
+    border-color: #f042b6;
+}
+
+@media (max-width: 768px) {
+    .table-responsive {
+        margin: 0;
+    }
+
+    .table thead, .table tbody tr {
+        display: block;
+        width: 100%;
+    }
+
+    .table thead tr {
+        display: none;
+    }
+
+    .table tbody tr {
+        margin-bottom: 15px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+    }
+
+    .table tbody tr td {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        font-size: 0.875rem;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .table tbody tr td::before {
+        content: attr(data-label);
+        flex-basis: 45%;
+        font-weight: bold;
+    }
+
+    .table tbody tr td:last-child {
+        border-bottom: 0;
+    }
+}
+                                       /*  footerpart */
+.footer {
+    background-color: white;
+    color: #5d5959;
+    padding: 20px 0;
+  }
+  
+  .footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer .col-md-3 {
+    flex-basis: 25%;
+  }
+  
+  .footer h4 {
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer li {
+    margin-bottom: 10px;
+  }
+  
+  .footer a {
+    color: #676565;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #ccc;
+  }
+  
+  .footer .copyright {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer .fab, .footer .fas {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+                                      /* qr code partt */
+.fixed-qr-code {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.qr-content {
+    display: flex;
+    align-items: center;
+    background-color: red; 
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Drop shadow for depth */
+}
+
+.qr-content img {
+    width: 60px; /* Adjust QR code size */
+    height: auto;
+    border-radius: 10px; /* Slightly rounded corners */
+}
+
+.qr-text {
+    margin-left: 8px; /* Space between QR code and text */
+    color: #050505e2; /* Text color (Teal) */
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.0;
+    text-align: center;
+}
+
+.qr-text p {
+    margin: 0;
+}
+
+.qr-content:hover {
+    background-color: purple; /* Darker purple on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    transition: all 0.3s ease-in-out;
+}

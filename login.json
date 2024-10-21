@@ -1,0 +1,30 @@
+{
+  "login": [
+    {
+      "id": "2",
+      "name": "alex",
+      "email": "alex456@example.com"
+    },
+    {
+      "id": "0eb1",
+      "name": "Raman paji",
+      "email": "paji12@gmail.com",
+      "password": "12345678",
+      "phone": "9588197511"
+    },
+    {
+      "id": "0e3b",
+      "name": "reet",
+      "email": "reetika@gmail.com",
+      "password": "12345678",
+      "phone": "7987654565"
+    },
+    {
+      "id": "076d",
+      "name": "nick",
+      "email": "nick77@gmail.com",
+      "password": "12345678",
+      "phone": "9876543234"
+    }
+  ]
+}

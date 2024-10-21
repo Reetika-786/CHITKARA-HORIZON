@@ -114,11 +114,14 @@ nav button i{
     justify-content: center;
 }
 
-#page1 h1{
+#page1 h1 {
     font-size: 6vw;
-    text-transform: uppercase;
     font-weight: 900;
-    line-height: 6vw;
+    text-transform: uppercase;
+    line-height: 1.2;  
+    word-break: break-word;  
+    margin: 0 5%;  
+    padding: 2vh 0; 
 }
 
 #page1 h1 i{
@@ -371,6 +374,20 @@ nav button i{
     text-decoration: underline;
 }
 
+#page4-left,
+#page4-right {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+    min-width: 0; 
+}
+
+/* Ensure Proper Width Handling */
+#page4-left p,
+#page4-right p {
+    word-wrap: break-word;
+}
+
 #nirf h3{  
     color: #333;
     font-size: 3.6vw;
@@ -438,4 +455,120 @@ nav button i{
     display: flex;
     flex-direction: column;
     padding: 0.2vw; 
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    nav h1 {
+        font-size: 2vw;
+    }
+
+    #page1 h1 {
+        font-size: 8vw;
+    }
+
+    #page1-expertise h4 {
+        font-size: 2.5vw;
+    }
+
+    #moving-div img {
+        height: 3vw;
+        width: 8vw;
+    }
+
+    #page2-left p, h5 {
+        font-size: 1.5vw;
+    }
+
+    .right-elem img {
+        width: 14vw;
+    }
+
+    #nirf h3 {
+        font-size: 2.5vw;
+    }
+
+    .card h2 {
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    nav h1 {
+        font-size: 3vw;
+        margin: 1vh 0;
+    }
+
+    #page1 h1 {
+        font-size: 8vw;  
+        line-height: 1.3;  
+    }
+
+    #moving-div {
+        width: 60%;
+    }
+
+    #moving-div img {
+        height: 4vw;
+        width: 10vw;
+    }
+
+    #page2 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .right-elem {
+        flex-direction: column;
+    }
+
+    #nirf h3 {
+        font-size: 3vw;
+    }
+
+    .card {
+        width: 20vw;
+        height: 20vw;
+    }
+}
+
+@media (max-width: 480px) {
+    nav h1 {
+        font-size: 4vw;
+    }
+
+    #page1 h1 {
+        font-size: 10vw;  
+        line-height: 1.4;
+        text-align: center;  
+        padding: 5vh 2vw;  
+    }
+
+    #page2-left p, h5 {
+        font-size: 2vw;
+    }
+
+    .right-elem img {
+        width: 20vw;
+    }
+    #page4 {
+        flex-direction: column;  
+        align-items: stretch;  
+    }
+
+    #page4-left,
+    #page4-right {
+        margin: 10px 0;  
+        width: 100%;      
+    }
+
+    .card h2 {
+        font-size: 5vw;
+    }
 }
