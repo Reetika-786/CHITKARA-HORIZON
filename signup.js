@@ -1,6 +1,6 @@
 document.getElementById('signupForm').addEventListener('submit', function (event) {
     event.preventDefault();  // Prevent the default form submission
-
+    
     const name = document.getElementById('name').value.trim();
     const email = document.getElementById('email').value.trim();
     const roll = document.getElementById('roll').value.trim();
