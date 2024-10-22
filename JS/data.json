@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Barista",
+        "description": "A Barista is a self-service restaurant or institutional dining room. The food is prepared in advance and ready to grab.",
+        "image": "cafeteria.jpg",
+        "link": "Cafeteria.html"
+    },
+    {
+        "title": "Library",
+        "description": "A library is a collection of books, and possibly other materials and media. Libraries provide physical or digital material.",
+        "image": "libraryy.jpg",
+        "link": "Library.html"
+    },
+    {
+        "title": "Gym",
+        "description": "A gym is a large room, usually containing special equipment, where people go to do physical exercise and get fit.",
+        "image": "gym.jpg",
+        "link": "Gym.html"
+    },
+    {
+        "title": "Chai Nagri",
+        "description": "Chai Nagri has emerged as one of the most prominent brands in the Food and Beverage category with a wide variety of chai and delicious snack range for students.",
+        "image": "chai nagri.jpg",
+        "link": "chai nagri.html"
+    },
+    {
+        "title": "Square One",
+        "description": "You can obviously go to Square One, the canteen of Chitkara University, and get yourself something you like—grab and go, ready-to-eat food.",
+        "image": "square onee.jpg",
+        "link": "square one.html"
+    },
+    {
+        "title": "OIA",
+        "description": "The Office of International Affairs (OIA) is designed to perform efficiently in defining an appropriate internationalisation policy, collaborating with International Universities.",
+        "image": "oiaa.jpg",
+        "link": "oia.html"
+    },
+    {
+        "title": "Picasso",
+        "description": "Design students get an edge with a strong foundation in fundamental Art & Design skills. A platform to enhance design skills.",
+        "image": "picasso.jpg",
+        "link": "picasso.html"
+    },
+    {
+        "title": "Explore Hub",
+        "description": "To nurture this startup culture, Chitkara University is coming out with a new and noble idea of EXPLORE HUB.",
+        "image": "explore hub.jpg",
+        "link": "explore-hub.html"
+    },
+    {
+        "title": "Explore Star",
+        "description": "A blend of cultural ethnicity enfolding different creative genres will be displayed in this exquisite extravaganza.",
+        "image": "explore star.jpg",
+        "link": "explore-star.html"
+    }
+]
