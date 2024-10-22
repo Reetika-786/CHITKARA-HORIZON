@@ -7,23 +7,38 @@
 }
 
 body {
-    background-color: #121212; /* Dark background for Spotify-like feel */
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url('https://i0.wp.com/www.frebers.com/wp-content/uploads/2020/08/Black-Abstract-Background-Free-Vector-Art-01-scaled.jpg?fit=2560%2C1440&ssl=1') no-repeat;
+    background-size: cover;
     height: 100vh;
 }
 
-/* Container for the form */
-.container {
-    background-color: #1DB954; /* Spotify green */
+form {
+    display: flex;
+    flex-direction: column;
+    height: auto; 
+    width: 50vh;
+    border: 1px solid red;
+    align-items: center;
+    margin: auto;
+    margin-top: 15vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -7px -7px rgba(255, 65, 65, 0.5);
+    border-radius: 5vh;
+    padding: 2vh; 
+}
+
+/* .container {
+    background-color: #1DB954; 
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
     width: 100%;
     max-width: 400px;
-}
+} */
 
 h1 {
     text-align: center;
@@ -65,7 +80,7 @@ input::placeholder {
 }
 
 .btn {
-    background-color: #1DB954;
+    background-color: rgba(255, 65, 65, 0.5);
     border: none;
     color: white;
     padding: 10px;
@@ -76,7 +91,7 @@ input::placeholder {
 }
 
 .btn:hover {
-    background-color: #1ed760;
+    background-color: rgba(255, 65, 65, 0.5)
 }
 
 .login-link, .signup-link {
@@ -90,5 +105,5 @@ a {
 }
 
 a:hover {
-    color: #1ed760;
+    color: rgba(255, 65, 65, 0.5)
 }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="/CHITKARA-HORIZON/krati/regis.css">
+</head>
+<body>
+    <header>
+        <h1>Register for a club</h1>
+    </header>
+    <main>
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="club">Select Club:</label>
+                <select id="club" required>
+                    <option value="">--Select a Club--</option>
+                    <option value="reflection">REFLECTION</option>
+                    <option value="tasweer">TASWEER</option>
+                    <option value="panache">PANACHE</option>
+                    <option value="dhwani">DHWANII</option>
+                    <option value="natraj">NATRAJ</option>
+                    <option value="nati">NATI</option>
+                    <option value="custody">Custody</option>
+                    <option value="literayalls">Literayalls</option>
+                    <option value="bhangra">Bhangra</option>
+                </select>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+        <div id="message" class="message"></div>
+    </main>
+    <script src="/CHITKARA-HORIZON/krati/regis.js"></script>
+</body>
+</html>

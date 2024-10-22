@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all 2s;
+    font-family: Open Sans, sans-serif;
+  }
+  
+  body {
+    background-color: #D4C1EC;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  header {
+    background-color: #a672b1;;
+    padding: 30px;
+    text-align: center;
+    color: #000;
+    
+  }
+  
+  h1 {
+    font-size: 44px;
+    margin-bottom: 10px;
+    font-family:cursive;
+  }
+  
+  main {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #a672b1;
+    border: 1px solid #000000;
+    border-radius: 3vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 2s;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"], select {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #000000;
+    transition: width 2s;
+    background-color:rgb(215, 195, 225) ;
+    border-radius: 1.3vw;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #394139;
+    color: #f1ebeb;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1vw;
+    transition: background-color 2s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .message {
+    color: black;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .captcha {
+    margin-top: 20px;
+  }
+  
+  .captcha img {
+    width: 100px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .password-strength-indicator {
+    margin-top: 10px;
+  }
+  
+  .strength {
+    width: 100px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+  }
+  
+  .strength, strong {
+    background-color: #4CAF50;
+  }
+  
+  @media (max-width: 768px) {
+    main {
+      margin: 20px auto;
+    }
+  }
+  
+  .centered {
+    text-align: center;
+  }

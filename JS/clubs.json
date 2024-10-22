@@ -1,45 +1,52 @@
 [
     {
-        "image": "images/reflection.jpeg",
-        "alt": "Club 1",
+        "image": "/CHITKARA-HORIZON/IMAGESS/images/panache.jpeg",
+        "alt": "REFLECTION Club",
         "title": "REFLECTION",
         "description": "Unleash your creativity, unleash yourself",
-        "link": "bsignup.html"
+        "link": "/CHITKARA-HORIZON/krati/regis.html"
     },
     {
-        "image": "images/TASWEER.jpeg",
-        "alt": "Club 2",
+        "image": "/CHITKARA-HORIZON/IMAGESS/images/TASWEER.jpeg",
+        "alt": "TASWEER Club",
         "title": "TASWEER",
         "description": "Capturing life, one shot at a time",
-        "link": "bsignup.html"
+        "link": "/CHITKARA-HORIZON/krati/regis.html"
     },
     {
-        "image":"images/panache.jpeg",
-        "alt": "Club 2",
+        "image": "/CHITKARA-HORIZON/IMAGESS/images/panache.jpeg",
+        "alt": "PANACHE Club",
         "title": "PANACHE",
         "description": "Where confidence meets style",
-        "link": "bsignup.html"
+        "link": "/CHITKARA-HORIZON/krati/regis.html"
     },
     {
-        "image": "images/dwanii.jpeg",
-        "alt": "Club 2",
+        "image": "/CHITKARA-HORIZON/IMAGESS/images/dwanii.jpeg",
+        "alt": "DHWANII Club",
         "title": "DHWANII",
         "description": "The beat of creativity, in every student",
-        "link": "bsignup.html"
+        "link": "/CHITKARA-HORIZON/krati/regis.html"
     },
     {
-        "image": "images/natraj.jpeg",
-        "alt": "Club 2",
+        "image": "/CHITKARA-HORIZON/IMAGESS/images/natraj.jpeg",
+        "alt": "NATRAJ Club",
         "title": "NATRAJ",
         "description": "The rhythm of India, in every step",
-        "link": "bsignup.html"
-      },
-      {
-        "image": "images/nati.jpeg",
-        "alt": "Club 2",
+        "link": "/CHITKARA-HORIZON/krati/regis.html"
+    },
+    {
+        "image": "/CHITKARA-HORIZON/IMAGESS/images/nati.jpeg",
+        "alt": "NATI Club",
         "title": "NATI",
         "description": "The rhythm of the mountains, in every step",
-        "link": "bsignup.html"
-      }
-  
+        "link": "/CHITKARA-HORIZON/krati/regis.html"
+    },
+    {
+        "image": "/CHITKARA-HORIZON/IMAGESS/images/reflection.jpeg",
+        "alt": "Literaylls",
+        "title": "Literaylls",
+        "description": "We are the dictiobary of our own words",
+        "link": "/CHITKARA-HORIZON/krati/regis.html"
+    }
+
 ]
