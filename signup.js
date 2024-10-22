@@ -69,7 +69,7 @@ document.getElementById('signupForm').addEventListener('submit', function (event
         const newUser = { name, roll, email, password };
 
         // POST request to add a new user to the login data
-        fetch("http://localhost:3004/login", {
+        fetch("http://localhost:3003/login", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

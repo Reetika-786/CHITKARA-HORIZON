@@ -39,6 +39,13 @@
       "roll": "7876765568",
       "email": "reetika@gmail.com",
       "password": "12345678"
+    },
+    {
+      "id": "950b",
+      "name": "rishabh",
+      "roll": "2310991269",
+      "email": "rishabh@gmail.com",
+      "password": "123456"
     }
   ]
 }
