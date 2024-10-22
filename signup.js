@@ -7,7 +7,6 @@ document.getElementById('signupForm').addEventListener('submit', function (event
     const password = document.getElementById('password').value;
     const c_password = document.getElementById('c_password').value;
     
-
     // Clear previous error messages
     document.getElementById('nameError').textContent = '';
     document.getElementById('rollError').textContent = '';
@@ -23,7 +22,7 @@ document.getElementById('signupForm').addEventListener('submit', function (event
         errors.name = "Username is required";
         isValid = false;
     }
-
+    
     const numPatt = /^\d{10}$/;
     if (!roll) {
         errors.roll = "Roll number is required";
