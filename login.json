@@ -32,6 +32,13 @@
       "email": "tee13@gmail.com",
       "password": "12345678",
       "phone": "7987654569"
+    },
+    {
+      "id": "60bd",
+      "name": "reet",
+      "roll": "7876765568",
+      "email": "reetika@gmail.com",
+      "password": "12345678"
     }
   ]
 }
