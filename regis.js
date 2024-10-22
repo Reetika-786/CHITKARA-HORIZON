@@ -37,7 +37,7 @@ document.getElementById('registrationForm').addEventListener('submit', function 
         const newRegistration = { name, email, club };
 
         // Post data to the server
-        fetch("http://localhost:3003/registration", {
+        fetch("http://localhost:3003/login", {
             
             method: 'POST',
             headers: {
