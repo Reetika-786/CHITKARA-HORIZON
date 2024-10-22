@@ -66,7 +66,7 @@ document.getElementById('signupForm').addEventListener('submit', function (event
 
     if (isValid) {
         // Create a new user object
-        const newUser = { name,roll, email, password };
+        const newUser = { name, roll, email, password };
 
         // POST request to add a new user to the login data
         fetch("http://localhost:3003/login", {
