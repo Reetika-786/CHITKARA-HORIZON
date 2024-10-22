@@ -4,49 +4,42 @@
         "alt": "REFLECTION Club",
         "title": "REFLECTION",
         "description": "Unleash your creativity, unleash yourself",
-        "link": "/CHITKARA-HORIZON/krati/regis.html"
+        "link": "regis.html"
     },
     {
         "image": "/CHITKARA-HORIZON/IMAGESS/images/TASWEER.jpeg",
         "alt": "TASWEER Club",
         "title": "TASWEER",
         "description": "Capturing life, one shot at a time",
-        "link": "/CHITKARA-HORIZON/krati/regis.html"
+        "link": "regis.html"
     },
     {
         "image": "/CHITKARA-HORIZON/IMAGESS/images/panache.jpeg",
         "alt": "PANACHE Club",
         "title": "PANACHE",
         "description": "Where confidence meets style",
-        "link": "/CHITKARA-HORIZON/krati/regis.html"
+        "link": "regis.html"
     },
     {
         "image": "/CHITKARA-HORIZON/IMAGESS/images/dwanii.jpeg",
         "alt": "DHWANII Club",
         "title": "DHWANII",
         "description": "The beat of creativity, in every student",
-        "link": "/CHITKARA-HORIZON/krati/regis.html"
+        "link": "regis.html"
     },
     {
         "image": "/CHITKARA-HORIZON/IMAGESS/images/natraj.jpeg",
         "alt": "NATRAJ Club",
         "title": "NATRAJ",
         "description": "The rhythm of India, in every step",
-        "link": "/CHITKARA-HORIZON/krati/regis.html"
+        "link": "regis.html"
     },
     {
         "image": "/CHITKARA-HORIZON/IMAGESS/images/nati.jpeg",
         "alt": "NATI Club",
         "title": "NATI",
         "description": "The rhythm of the mountains, in every step",
-        "link": "/CHITKARA-HORIZON/krati/regis.html"
-    },
-    {
-        "image": "/CHITKARA-HORIZON/IMAGESS/images/reflection.jpeg",
-        "alt": "Literaylls",
-        "title": "Literaylls",
-        "description": "We are the dictiobary of our own words",
-        "link": "/CHITKARA-HORIZON/krati/regis.html"
+        "link": "regis.html"
     }
 
 ]
