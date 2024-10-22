@@ -1,5 +1,5 @@
 document.getElementById('loginForm').addEventListener('submit', function (event) {
-    event.preventDefault();  // Prevent the form from being submitted the default way
+    event.preventDefault(); 
 
     const email = document.getElementById('email').value.trim();
     const password = document.getElementById('password').value;
