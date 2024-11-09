@@ -46,6 +46,30 @@
       "roll": "2310991269",
       "email": "rishabh@gmail.com",
       "password": "123456"
+    },
+    {
+      "id": "9ab1",
+      "name": "siya singla",
+      "email": "siya@gmail.com",
+      "club": "tasweer"
+    },
+    {
+      "id": "695b",
+      "name": "siya singla",
+      "email": "siya@gmail.com",
+      "club": "dhwani"
+    },
+    {
+      "id": "49c4",
+      "name": "siya",
+      "email": "siya@gmail.com",
+      "club": "natraj"
+    },
+    {
+      "id": "8fd9",
+      "name": "siya",
+      "email": "siya@gmail.com",
+      "club": "tasweer"
     }
   ]
 }
