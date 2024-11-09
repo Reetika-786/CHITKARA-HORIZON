@@ -65,7 +65,12 @@ document.getElementById('signupForm').addEventListener('submit', function (event
     document.getElementById('c_passwordError').textContent = errors.c_password;
 
     if (isValid) {
+<<<<<<< HEAD
         const newUser = { name,roll, email, password };
+=======
+        // Create a new user object
+        const newUser = { name, roll, email, password };
+>>>>>>> 29da575eb89b4b5f209db5d8d89385e29a5e57fc
 
         // POST request to add a new user to the login data
         fetch("http://localhost:3003/login", {

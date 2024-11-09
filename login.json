@@ -32,6 +32,44 @@
       "email": "tee13@gmail.com",
       "password": "12345678",
       "phone": "7987654569"
+    },
+    {
+      "id": "60bd",
+      "name": "reet",
+      "roll": "7876765568",
+      "email": "reetika@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "id": "950b",
+      "name": "rishabh",
+      "roll": "2310991269",
+      "email": "rishabh@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "9ab1",
+      "name": "siya singla",
+      "email": "siya@gmail.com",
+      "club": "tasweer"
+    },
+    {
+      "id": "695b",
+      "name": "siya singla",
+      "email": "siya@gmail.com",
+      "club": "dhwani"
+    },
+    {
+      "id": "49c4",
+      "name": "siya",
+      "email": "siya@gmail.com",
+      "club": "natraj"
+    },
+    {
+      "id": "8fd9",
+      "name": "siya",
+      "email": "siya@gmail.com",
+      "club": "tasweer"
     }
   ]
 }
