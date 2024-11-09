@@ -16,7 +16,7 @@ document.getElementById('signupForm').addEventListener('submit', function (event
 
     const errors = { name: '', roll: '', email: '', password: '', c_password: '' };
     let isValid = true;
-
+ 
     // Validate the input fields
     if (!name) {
         errors.name = "Username is required";
@@ -65,7 +65,6 @@ document.getElementById('signupForm').addEventListener('submit', function (event
     document.getElementById('c_passwordError').textContent = errors.c_password;
 
     if (isValid) {
-        // Create a new user object
         const newUser = { name,roll, email, password };
 
         // POST request to add a new user to the login data
