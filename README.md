@@ -1,2 +1,2 @@
 # CHITKARA-HORIZON
-##[https://github.com/Reetika-786/CHITKARA-HORIZON.git]
+##[https://reetika-786.github.io/CHITKARA-HORIZON/]
