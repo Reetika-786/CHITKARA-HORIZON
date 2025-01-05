@@ -39,7 +39,32 @@
         "alt": "NATI Club",
         "title": "NATI",
         "description": "The rhythm of the mountains, in every step",
+<<<<<<< HEAD
+        "link": "/CHITKARA-HORIZON/krati/regis.html"
+    },
+    {
+        "image": "/CHITKARA-HORIZON/IMAGESS/images/reflection.jpeg",
+        "alt": "Literaylls",
+        "title": "Literaylls",
+        "description": "We are the dictiobary of our own words",
+        "link": "/CHITKARA-HORIZON/krati/regis.html"
+    },
+    {
+        "image": "/CHITKARA-HORIZON/IMAGESS/images/custody.jpeg",
+        "alt": "Bhangra",
+        "title": "Bhangra",
+        "description": "Bhangra:more than just a dance",
+        "link": "/CHITKARA-HORIZON/krati/regis.html"
+    },
+    {
+        "image": "/CHITKARA-HORIZON/IMAGESS/images/natraj.jpeg",
+        "alt": "natsamrat",
+        "title": "Natsamrat",
+        "description": "We are the dictiobary of our own words",
+        "link": "/CHITKARA-HORIZON/krati/regis.html"
+=======
         "link": "regis.html"
+>>>>>>> 29da575eb89b4b5f209db5d8d89385e29a5e57fc
     }
 
 ]
