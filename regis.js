@@ -1,3 +1,5 @@
+// the regis.html file must be in the same folder as clubs.html
+
 document.getElementById('registrationForm').addEventListener('submit', function (event) {
     event.preventDefault();
     alert("Register Succesfully")
@@ -37,7 +39,7 @@ document.getElementById('registrationForm').addEventListener('submit', function 
         const newRegistration = { name, email, club };
 
         // Post data to the server
-        fetch("http://localhost:3004/login", {
+        fetch("http://localhost:3000/login", {
             
             method: 'POST',
             headers: {

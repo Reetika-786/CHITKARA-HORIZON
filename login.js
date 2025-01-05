@@ -9,7 +9,7 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
     document.getElementById('passwordError').textContent = '';
 
     // Fetch users from the JSON server
-    fetch(`http://localhost:3003/login?email=${encodeURIComponent(email)}&password=${encodeURIComponent(password)}`)
+    fetch(`http://localhost:3000/login?email=${encodeURIComponent(email)}&password=${encodeURIComponent(password)}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');

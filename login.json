@@ -70,6 +70,19 @@
       "name": "siya",
       "email": "siya@gmail.com",
       "club": "tasweer"
+    },
+    {
+      "id": "923f",
+      "name": "ananya",
+      "roll": "2310991111",
+      "email": "ananyaa@gmail.com",
+      "password": "123123"
+    },
+    {
+      "id": "7b92",
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "club": "tasweer"
     }
   ]
 }
