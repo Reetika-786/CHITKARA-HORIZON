@@ -1,6 +1,6 @@
 function generateClubCards() {
     const clubGrid = document.querySelector(".club-grid");
-    fetch('/CHITKARA-HORIZON/JS/clubs.json')
+    fetch('../JS/clubs.json') // Adjust the path to your JSON file
         .then(response => {
              
             if (!response.ok) {
